@@ -1,0 +1,5 @@
+/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator.dir
+/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/edit_cache.dir
+/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/rebuild_cache.dir
+/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator_autogen_timestamp_deps.dir
+/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator_autogen.dir

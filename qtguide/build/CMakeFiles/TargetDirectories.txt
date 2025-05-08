@@ -1,0 +1,5 @@
+/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide.dir
+/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/edit_cache.dir
+/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/rebuild_cache.dir
+/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide_autogen_timestamp_deps.dir
+/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide_autogen.dir

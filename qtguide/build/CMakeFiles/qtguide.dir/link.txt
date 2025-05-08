@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/qtguide.dir/link.d CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o CMakeFiles/qtguide.dir/main.cpp.o -o qtguide  /usr/lib/libQt5Widgets.so.5.15.16 /usr/lib/libQt5Gui.so.5.15.16 /usr/lib/libQt5Core.so.5.15.16
