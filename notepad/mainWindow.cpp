@@ -67,6 +67,7 @@ void MainWindow::on_open_triggered() {
 }
 
 void MainWindow::on_save_triggered() {
+    
     QString path = QFileDialog::getSaveFileName(this, "save to", "", "");
     if(path == "")
         return;
