@@ -13,6 +13,7 @@ set(CMAKE_AUTOUIC ON)
 
 project(notepad)
 
+
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets)
 file(GLOB sources *.cpp)
 add_executable(notepad ${sources})
