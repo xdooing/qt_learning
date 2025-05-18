@@ -1,5 +1,5 @@
 CMakeFiles/calculator.dir/main.cpp.o: \
- /home/xdoo/workspace/qt_learning/calculator/main.cpp \
+ /home/xdoo/workspace/qt_Learning/calculator/main.cpp \
  /usr/include/stdc-predef.h /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \

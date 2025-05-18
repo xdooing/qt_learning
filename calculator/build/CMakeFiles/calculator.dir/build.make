@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/calculator
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/calculator/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/calculator/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculator.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/calculator.dir/flags.make
 calculator_autogen/timestamp: /usr/bin/moc
 calculator_autogen/timestamp: /usr/bin/uic
 calculator_autogen/timestamp: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calculator"
-	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_learning/calculator/build/calculator_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calculator"
+	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles/calculator_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_Learning/calculator/build/calculator_autogen/timestamp
 
 CMakeFiles/calculator.dir/codegen:
 .PHONY : CMakeFiles/calculator.dir/codegen
@@ -82,30 +82,30 @@ CMakeFiles/calculator.dir/codegen:
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o: CMakeFiles/calculator.dir/flags.make
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o: calculator_autogen/mocs_compilation.cpp
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o -c /home/xdoo/workspace/qt_learning/calculator/build/calculator_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o -MF CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o -c /home/xdoo/workspace/qt_Learning/calculator/build/calculator_autogen/mocs_compilation.cpp
 
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_learning/calculator/build/calculator_autogen/mocs_compilation.cpp > CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_Learning/calculator/build/calculator_autogen/mocs_compilation.cpp > CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_learning/calculator/build/calculator_autogen/mocs_compilation.cpp -o CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_Learning/calculator/build/calculator_autogen/mocs_compilation.cpp -o CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/calculator.dir/main.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/main.cpp.o: /home/xdoo/workspace/qt_learning/calculator/main.cpp
+CMakeFiles/calculator.dir/main.cpp.o: /home/xdoo/workspace/qt_Learning/calculator/main.cpp
 CMakeFiles/calculator.dir/main.cpp.o: CMakeFiles/calculator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/main.cpp.o -MF CMakeFiles/calculator.dir/main.cpp.o.d -o CMakeFiles/calculator.dir/main.cpp.o -c /home/xdoo/workspace/qt_learning/calculator/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calculator.dir/main.cpp.o -MF CMakeFiles/calculator.dir/main.cpp.o.d -o CMakeFiles/calculator.dir/main.cpp.o -c /home/xdoo/workspace/qt_Learning/calculator/main.cpp
 
 CMakeFiles/calculator.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calculator.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_learning/calculator/main.cpp > CMakeFiles/calculator.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_Learning/calculator/main.cpp > CMakeFiles/calculator.dir/main.cpp.i
 
 CMakeFiles/calculator.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_learning/calculator/main.cpp -o CMakeFiles/calculator.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_Learning/calculator/main.cpp -o CMakeFiles/calculator.dir/main.cpp.s
 
 # Object files for target calculator
 calculator_OBJECTS = \
@@ -123,7 +123,7 @@ calculator: /usr/lib/libQt5Widgets.so.5.15.16
 calculator: /usr/lib/libQt5Gui.so.5.15.16
 calculator: /usr/lib/libQt5Core.so.5.15.16
 calculator: CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/calculator.dir/clean:
 .PHONY : CMakeFiles/calculator.dir/clean
 
 CMakeFiles/calculator.dir/depend: calculator_autogen/timestamp
-	cd /home/xdoo/workspace/qt_learning/calculator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_learning/calculator /home/xdoo/workspace/qt_learning/calculator /home/xdoo/workspace/qt_learning/calculator/build /home/xdoo/workspace/qt_learning/calculator/build /home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xdoo/workspace/qt_Learning/calculator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_Learning/calculator /home/xdoo/workspace/qt_Learning/calculator /home/xdoo/workspace/qt_Learning/calculator/build /home/xdoo/workspace/qt_Learning/calculator/build /home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles/calculator.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/calculator.dir/depend
 

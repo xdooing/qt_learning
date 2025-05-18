@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/qtguide
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/qtguide
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/qtguide/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/qtguide/build
 
 # Utility rule file for qtguide_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/qtguide_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/qtguide_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/qtguide_autogen_timestamp_deps.dir/depend:
-	cd /home/xdoo/workspace/qt_learning/qtguide/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_learning/qtguide /home/xdoo/workspace/qt_learning/qtguide /home/xdoo/workspace/qt_learning/qtguide/build /home/xdoo/workspace/qt_learning/qtguide/build /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xdoo/workspace/qt_Learning/qtguide/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_Learning/qtguide /home/xdoo/workspace/qt_Learning/qtguide /home/xdoo/workspace/qt_Learning/qtguide/build /home/xdoo/workspace/qt_Learning/qtguide/build /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/qtguide_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/qtguide_autogen_timestamp_deps.dir/depend
 

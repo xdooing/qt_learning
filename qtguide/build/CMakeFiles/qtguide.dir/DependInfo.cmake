@@ -9,8 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "qtguide_autogen/timestamp" "custom" "qtguide_autogen/deps"
-  "/home/xdoo/workspace/qt_learning/qtguide/main.cpp" "CMakeFiles/qtguide.dir/main.cpp.o" "gcc" "CMakeFiles/qtguide.dir/main.cpp.o.d"
-  "/home/xdoo/workspace/qt_learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp" "CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o.d"
+  "/home/xdoo/workspace/qt_Learning/qtguide/main.cpp" "CMakeFiles/qtguide.dir/main.cpp.o" "gcc" "CMakeFiles/qtguide.dir/main.cpp.o.d"
+  "/home/xdoo/workspace/qt_Learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp" "CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o.d"
   "" "qtguide" "gcc" "CMakeFiles/qtguide.dir/link.d"
   )
 

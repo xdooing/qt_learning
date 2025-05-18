@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/calculator
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/calculator/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/calculator/build
 
 # Utility rule file for calculator_autogen_timestamp_deps.
 
@@ -81,6 +81,6 @@ CMakeFiles/calculator_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/calculator_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/calculator_autogen_timestamp_deps.dir/depend:
-	cd /home/xdoo/workspace/qt_learning/calculator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_learning/calculator /home/xdoo/workspace/qt_learning/calculator /home/xdoo/workspace/qt_learning/calculator/build /home/xdoo/workspace/qt_learning/calculator/build /home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xdoo/workspace/qt_Learning/calculator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_Learning/calculator /home/xdoo/workspace/qt_Learning/calculator /home/xdoo/workspace/qt_Learning/calculator/build /home/xdoo/workspace/qt_Learning/calculator/build /home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles/calculator_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/calculator_autogen_timestamp_deps.dir/depend
 

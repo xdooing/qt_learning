@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/qtguide
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/qtguide
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/qtguide/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/qtguide/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/qtguide.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/qtguide.dir/flags.make
 qtguide_autogen/timestamp: /usr/bin/moc
 qtguide_autogen/timestamp: /usr/bin/uic
 qtguide_autogen/timestamp: CMakeFiles/qtguide.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qtguide"
-	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_learning/qtguide/build/qtguide_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qtguide"
+	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/qtguide_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_Learning/qtguide/build/qtguide_autogen/timestamp
 
 CMakeFiles/qtguide.dir/codegen:
 .PHONY : CMakeFiles/qtguide.dir/codegen
@@ -82,30 +82,30 @@ CMakeFiles/qtguide.dir/codegen:
 CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o: CMakeFiles/qtguide.dir/flags.make
 CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o: qtguide_autogen/mocs_compilation.cpp
 CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o: CMakeFiles/qtguide.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o -c /home/xdoo/workspace/qt_learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o -MF CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.o -c /home/xdoo/workspace/qt_Learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp
 
 CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp > CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_Learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp > CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp -o CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_Learning/qtguide/build/qtguide_autogen/mocs_compilation.cpp -o CMakeFiles/qtguide.dir/qtguide_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/qtguide.dir/main.cpp.o: CMakeFiles/qtguide.dir/flags.make
-CMakeFiles/qtguide.dir/main.cpp.o: /home/xdoo/workspace/qt_learning/qtguide/main.cpp
+CMakeFiles/qtguide.dir/main.cpp.o: /home/xdoo/workspace/qt_Learning/qtguide/main.cpp
 CMakeFiles/qtguide.dir/main.cpp.o: CMakeFiles/qtguide.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/qtguide.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtguide.dir/main.cpp.o -MF CMakeFiles/qtguide.dir/main.cpp.o.d -o CMakeFiles/qtguide.dir/main.cpp.o -c /home/xdoo/workspace/qt_learning/qtguide/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/qtguide.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/qtguide.dir/main.cpp.o -MF CMakeFiles/qtguide.dir/main.cpp.o.d -o CMakeFiles/qtguide.dir/main.cpp.o -c /home/xdoo/workspace/qt_Learning/qtguide/main.cpp
 
 CMakeFiles/qtguide.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/qtguide.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_learning/qtguide/main.cpp > CMakeFiles/qtguide.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xdoo/workspace/qt_Learning/qtguide/main.cpp > CMakeFiles/qtguide.dir/main.cpp.i
 
 CMakeFiles/qtguide.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/qtguide.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_learning/qtguide/main.cpp -o CMakeFiles/qtguide.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xdoo/workspace/qt_Learning/qtguide/main.cpp -o CMakeFiles/qtguide.dir/main.cpp.s
 
 # Object files for target qtguide
 qtguide_OBJECTS = \
@@ -123,7 +123,7 @@ qtguide: /usr/lib/libQt5Widgets.so.5.15.16
 qtguide: /usr/lib/libQt5Gui.so.5.15.16
 qtguide: /usr/lib/libQt5Core.so.5.15.16
 qtguide: CMakeFiles/qtguide.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qtguide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable qtguide"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtguide.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/qtguide.dir/clean:
 .PHONY : CMakeFiles/qtguide.dir/clean
 
 CMakeFiles/qtguide.dir/depend: qtguide_autogen/timestamp
-	cd /home/xdoo/workspace/qt_learning/qtguide/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_learning/qtguide /home/xdoo/workspace/qt_learning/qtguide /home/xdoo/workspace/qt_learning/qtguide/build /home/xdoo/workspace/qt_learning/qtguide/build /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xdoo/workspace/qt_Learning/qtguide/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_Learning/qtguide /home/xdoo/workspace/qt_Learning/qtguide /home/xdoo/workspace/qt_Learning/qtguide/build /home/xdoo/workspace/qt_Learning/qtguide/build /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/qtguide.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/qtguide.dir/depend
 

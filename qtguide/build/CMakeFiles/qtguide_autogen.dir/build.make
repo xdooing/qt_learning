@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/qtguide
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/qtguide
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/qtguide/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/qtguide/build
 
 # Utility rule file for qtguide_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/qtguide_autogen: qtguide_autogen/timestamp
 qtguide_autogen/timestamp: /usr/bin/moc
 qtguide_autogen/timestamp: /usr/bin/uic
 qtguide_autogen/timestamp: CMakeFiles/qtguide_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qtguide"
-	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_learning/qtguide/build/qtguide_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target qtguide"
+	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/qtguide_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_Learning/qtguide/build/qtguide_autogen/timestamp
 
 CMakeFiles/qtguide_autogen.dir/codegen:
 .PHONY : CMakeFiles/qtguide_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/qtguide_autogen.dir/clean:
 .PHONY : CMakeFiles/qtguide_autogen.dir/clean
 
 CMakeFiles/qtguide_autogen.dir/depend:
-	cd /home/xdoo/workspace/qt_learning/qtguide/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_learning/qtguide /home/xdoo/workspace/qt_learning/qtguide /home/xdoo/workspace/qt_learning/qtguide/build /home/xdoo/workspace/qt_learning/qtguide/build /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/qtguide_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xdoo/workspace/qt_Learning/qtguide/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_Learning/qtguide /home/xdoo/workspace/qt_Learning/qtguide /home/xdoo/workspace/qt_Learning/qtguide/build /home/xdoo/workspace/qt_Learning/qtguide/build /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/qtguide_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/qtguide_autogen.dir/depend
 

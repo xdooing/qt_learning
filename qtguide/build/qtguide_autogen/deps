@@ -1,9 +1,9 @@
 qtguide_autogen/timestamp: \
-	/home/xdoo/workspace/qt_learning/qtguide/CMakeLists.txt \
-	/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/4.0.1-dirty/CMakeCCompiler.cmake \
-	/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/4.0.1-dirty/CMakeCXXCompiler.cmake \
-	/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles/4.0.1-dirty/CMakeSystem.cmake \
-	/home/xdoo/workspace/qt_learning/qtguide/main.cpp \
+	/home/xdoo/workspace/qt_Learning/qtguide/CMakeLists.txt \
+	/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/4.0.1-dirty/CMakeCCompiler.cmake \
+	/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/4.0.1-dirty/CMakeCXXCompiler.cmake \
+	/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles/4.0.1-dirty/CMakeSystem.cmake \
+	/home/xdoo/workspace/qt_Learning/qtguide/main.cpp \
 	/usr/lib/cmake/Qt5/Qt5Config.cmake \
 	/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
 	/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake \

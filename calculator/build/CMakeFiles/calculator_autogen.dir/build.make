@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/calculator
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/calculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/calculator/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/calculator/build
 
 # Utility rule file for calculator_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/calculator_autogen: calculator_autogen/timestamp
 calculator_autogen/timestamp: /usr/bin/moc
 calculator_autogen/timestamp: /usr/bin/uic
 calculator_autogen/timestamp: CMakeFiles/calculator_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calculator"
-	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_learning/calculator/build/calculator_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target calculator"
+	/usr/bin/cmake -E cmake_autogen /home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles/calculator_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/xdoo/workspace/qt_Learning/calculator/build/calculator_autogen/timestamp
 
 CMakeFiles/calculator_autogen.dir/codegen:
 .PHONY : CMakeFiles/calculator_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/calculator_autogen.dir/clean:
 .PHONY : CMakeFiles/calculator_autogen.dir/clean
 
 CMakeFiles/calculator_autogen.dir/depend:
-	cd /home/xdoo/workspace/qt_learning/calculator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_learning/calculator /home/xdoo/workspace/qt_learning/calculator /home/xdoo/workspace/qt_learning/calculator/build /home/xdoo/workspace/qt_learning/calculator/build /home/xdoo/workspace/qt_learning/calculator/build/CMakeFiles/calculator_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/xdoo/workspace/qt_Learning/calculator/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xdoo/workspace/qt_Learning/calculator /home/xdoo/workspace/qt_Learning/calculator /home/xdoo/workspace/qt_Learning/calculator/build /home/xdoo/workspace/qt_Learning/calculator/build /home/xdoo/workspace/qt_Learning/calculator/build/CMakeFiles/calculator_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/calculator_autogen.dir/depend
 

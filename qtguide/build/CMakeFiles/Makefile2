@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_learning/qtguide
+CMAKE_SOURCE_DIR = /home/xdoo/workspace/qt_Learning/qtguide
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_learning/qtguide/build
+CMAKE_BINARY_DIR = /home/xdoo/workspace/qt_Learning/qtguide/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ CMakeFiles/qtguide.dir/all: CMakeFiles/qtguide_autogen_timestamp_deps.dir/all
 CMakeFiles/qtguide.dir/all: CMakeFiles/qtguide_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide.dir/build.make CMakeFiles/qtguide.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide.dir/build.make CMakeFiles/qtguide.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=1,2,3,4 "Built target qtguide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=1,2,3,4 "Built target qtguide"
 .PHONY : CMakeFiles/qtguide.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qtguide.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qtguide.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles 0
 .PHONY : CMakeFiles/qtguide.dir/rule
 
 # Convenience name for target.
@@ -105,7 +105,7 @@ qtguide: CMakeFiles/qtguide.dir/rule
 # codegen rule for target.
 CMakeFiles/qtguide.dir/codegen: CMakeFiles/qtguide_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide.dir/build.make CMakeFiles/qtguide.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target qtguide"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target qtguide"
 .PHONY : CMakeFiles/qtguide.dir/codegen
 
 # clean rule for target.
@@ -120,14 +120,14 @@ CMakeFiles/qtguide.dir/clean:
 CMakeFiles/qtguide_autogen_timestamp_deps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide_autogen_timestamp_deps.dir/build.make CMakeFiles/qtguide_autogen_timestamp_deps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide_autogen_timestamp_deps.dir/build.make CMakeFiles/qtguide_autogen_timestamp_deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num= "Built target qtguide_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num= "Built target qtguide_autogen_timestamp_deps"
 .PHONY : CMakeFiles/qtguide_autogen_timestamp_deps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qtguide_autogen_timestamp_deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qtguide_autogen_timestamp_deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles 0
 .PHONY : CMakeFiles/qtguide_autogen_timestamp_deps.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ qtguide_autogen_timestamp_deps: CMakeFiles/qtguide_autogen_timestamp_deps.dir/ru
 # codegen rule for target.
 CMakeFiles/qtguide_autogen_timestamp_deps.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide_autogen_timestamp_deps.dir/build.make CMakeFiles/qtguide_autogen_timestamp_deps.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num= "Finished codegen for target qtguide_autogen_timestamp_deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num= "Finished codegen for target qtguide_autogen_timestamp_deps"
 .PHONY : CMakeFiles/qtguide_autogen_timestamp_deps.dir/codegen
 
 # clean rule for target.
@@ -152,14 +152,14 @@ CMakeFiles/qtguide_autogen_timestamp_deps.dir/clean:
 CMakeFiles/qtguide_autogen.dir/all: CMakeFiles/qtguide_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide_autogen.dir/build.make CMakeFiles/qtguide_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide_autogen.dir/build.make CMakeFiles/qtguide_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=5 "Built target qtguide_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=5 "Built target qtguide_autogen"
 .PHONY : CMakeFiles/qtguide_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/qtguide_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/qtguide_autogen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles 0
 .PHONY : CMakeFiles/qtguide_autogen.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ qtguide_autogen: CMakeFiles/qtguide_autogen.dir/rule
 # codegen rule for target.
 CMakeFiles/qtguide_autogen.dir/codegen: CMakeFiles/qtguide_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qtguide_autogen.dir/build.make CMakeFiles/qtguide_autogen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_learning/qtguide/build/CMakeFiles --progress-num=5 "Finished codegen for target qtguide_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/xdoo/workspace/qt_Learning/qtguide/build/CMakeFiles --progress-num=5 "Finished codegen for target qtguide_autogen"
 .PHONY : CMakeFiles/qtguide_autogen.dir/codegen
 
 # clean rule for target.

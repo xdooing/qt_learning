@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/xdoo/workspace/qt_learning/qtguide/CMakeLists.txt"
+  "/home/xdoo/workspace/qt_Learning/qtguide/CMakeLists.txt"
   "CMakeFiles/4.0.1-dirty/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.1-dirty/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.1-dirty/CMakeSystem.cmake"

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/xdoo/workspace/qt_learning/qtguide/build/cmake_install.cmake"
+		"/home/xdoo/workspace/qt_Learning/qtguide/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -9,8 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "calculator_autogen/timestamp" "custom" "calculator_autogen/deps"
-  "/home/xdoo/workspace/qt_learning/calculator/build/calculator_autogen/mocs_compilation.cpp" "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o.d"
-  "/home/xdoo/workspace/qt_learning/calculator/main.cpp" "CMakeFiles/calculator.dir/main.cpp.o" "gcc" "CMakeFiles/calculator.dir/main.cpp.o.d"
+  "/home/xdoo/workspace/qt_Learning/calculator/build/calculator_autogen/mocs_compilation.cpp" "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/calculator.dir/calculator_autogen/mocs_compilation.cpp.o.d"
+  "/home/xdoo/workspace/qt_Learning/calculator/main.cpp" "CMakeFiles/calculator.dir/main.cpp.o" "gcc" "CMakeFiles/calculator.dir/main.cpp.o.d"
   "" "calculator" "gcc" "CMakeFiles/calculator.dir/link.d"
   )
 
