@@ -2,6 +2,7 @@
 #include <QSettings>
 #include <QFile>
 #include <QFileDialog>
+#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget* parent)
                     : QMainWindow(parent)
@@ -9,6 +10,7 @@ MainWindow::MainWindow(QWidget* parent)
     setGeometry(300, 300, 400, 300);
     edit_ = new QTextEdit;
     edit_->setVerticalScrollBarPolicy(Qt::ScrollBarPolicy::ScrollBarAsNeeded);
+    edit_->setObjectName("edit");
     setCentralWidget(edit_);
 
     // save config
@@ -35,7 +37,7 @@ MainWindow::MainWindow(QWidget* parent)
         action->setObjectName("save");
         // save as
         action = menu->addAction("save as");
-        action->setObjectName("saveas");
+        action->setObjectName("saveAs");
     }
 
     menu = menuBar->addMenu("edit");
@@ -53,10 +55,45 @@ MainWindow::MainWindow(QWidget* parent)
     QMetaObject::connectSlotsByName(this);
 }
 
-void MainWindow::on_open_triggered() {
-    QString path = QFileDialog::getOpenFileName(this, "open file", "", "");
-    if(path == "")
+void MainWindow::on_edit_textChanged() {
+    has_unsaved_modify_ = true;
+}
+
+bool MainWindow::checkUnSavedModify() {
+    if(has_unsaved_modify_){
+        auto btn = QMessageBox::question(this, "notepad", "you have unsaved file, save it or not?",
+                    QMessageBox::Save | QMessageBox::Discard | QMessageBox::Cancel);
+        switch (btn)
+        {
+        case QMessageBox::Save:
+            on_save_triggered();
+            // need to check if cancel int saveAs
+            if(current_file_name_.isEmpty())
+                return true;
+            break;
+        case QMessageBox::Discard:
+            // close();
+            break;
+        case QMessageBox::Cancel:
+            return true;
+            break;
+        default:
+            break;
+        }
+    }
+    return false;
+}
+
+void MainWindow::closeEvent(QCloseEvent* event) {
+    if(checkUnSavedModify()){
+        event->ignore();
         return;
+    }else {
+        QMainWindow::closeEvent(event);
+    }
+}
+
+void MainWindow::openFile(const QString& path) {
     QFile file(path);
     if(!file.open(QFile::ReadOnly)) {
         qWarning() << "file open failed";
@@ -64,20 +101,46 @@ void MainWindow::on_open_triggered() {
     }
     QString text = QString::fromUtf8(file.readAll());
     edit_->setPlainText(text);
+    current_file_name_ = path;
+    has_unsaved_modify_ = false;
 }
 
-void MainWindow::on_save_triggered() {
-    
-    QString path = QFileDialog::getSaveFileName(this, "save to", "", "");
+void MainWindow::on_open_triggered() {
+    if(checkUnSavedModify()){
+        return;
+    }
+    QString path = QFileDialog::getOpenFileName(this, "open file", "", "");
     if(path == "")
         return;
+    
+    openFile(path);
+}
+
+void MainWindow::saveFile(const QString& path) {
     QFile file(path);
     if(!file.open(QFile::WriteOnly)) {
-        qWarning() << "file open failed 2";
+        qWarning() << "file open failed 3";
         return;
     }
     QString text = edit_->toPlainText();
     file.write(text.toUtf8());
+    current_file_name_ = path;
+    has_unsaved_modify_ = false;
+}
+
+void MainWindow::on_save_triggered() {
+    if(current_file_name_.isEmpty()) {
+        on_saveAs_triggered();
+    }else {
+        saveFile(current_file_name_);
+    }
+}
+
+void MainWindow::on_saveAs_triggered() {
+    QString path = QFileDialog::getSaveFileName(this, "save to", "", "");
+    if(path == "")
+        return;
+    saveFile(path);
 }
 
 void MainWindow::on_autoLineWarp_triggered(bool checked) {

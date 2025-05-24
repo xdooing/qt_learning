@@ -13,9 +13,14 @@ set(CMAKE_AUTOUIC ON)
 
 project(notepad)
 
+if(NOT CMAKE_BUILD_TYPE)
+    set(CMAKE_BUILD_TYPE Release)
+endif()
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_SOURCE_DIR}/output/release")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG "${CMAKE_SOURCE_DIR}/output/debug")
 
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets)
 file(GLOB sources *.cpp)
 add_executable(notepad ${sources})
 target_link_libraries(notepad PRIVATE Qt5::Core Qt5::Widgets)
-
