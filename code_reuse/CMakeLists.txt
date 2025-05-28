@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 
 # 使用cmake编译qt项目的时候最好是加上
 # AUTOMOC负责自动生成Qt的元对象代码（moc），处理信号槽等特性。如果用户的项目中有Q_OBJECT宏的类，这个设置会自动调用moc工具，不需要手动添加命令。

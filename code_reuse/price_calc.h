@@ -11,6 +11,7 @@ enum checkType {
     spicyMoney,
     disCount,
     taoNess,
+    killNess,
     cusName,
 
     typeMaxLen, // for record max len of enum
